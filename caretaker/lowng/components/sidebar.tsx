@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { BarChart3, Bell, Brain, Home, Menu, MessageSquare, Settings } from "lucide-react"
+import { BarChart3, Bell, Home, Menu, MessageSquare, Settings } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
@@ -26,8 +26,7 @@ export default function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
     <>
       <div className="px-3 py-2">
         <div className="flex items-center px-2 mb-6">
-          <Brain className="h-6 w-6 text-slate-600" />
-          <h1 className="text-xl font-bold text-slate-900 ml-2">Lowng</h1>
+          <h1 className="text-xl font-bold text-slate-900 ml-2">Lowng 老 安</h1>
         </div>
         <div className="space-y-1">
           {menuItems.map((item) => (
