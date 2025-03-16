@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import Sidebar from "@/components/sidebar"
-import OverviewTab from "@/components/overview-tab"
-import InsightsTab from "@/components/insights-tab"
-import AlertsTab from "@/components/alerts-tab"
-import SettingsTab from "@/components/settings-tab"
+import { useState } from "react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Sidebar from "@/components/sidebar";
+import OverviewTab from "@/components/overview-tab";
+import InsightsTab from "@/components/insights-tab";
+import AlertsTab from "@/components/alerts-tab";
+import SettingsTab from "@/components/settings-tab";
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -43,6 +43,5 @@ export default function Dashboard() {
         </Tabs>
       </div>
     </div>
-  )
+  );
 }
-
